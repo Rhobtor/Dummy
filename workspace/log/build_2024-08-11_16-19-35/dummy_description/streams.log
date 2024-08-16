@@ -1,0 +1,84 @@
+[2.139s] Invoking command in '/mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/src/dummy_description': PYTHONPATH=/mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/build/dummy_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/dummy_description build --build-base /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/build/dummy_description/build install --record /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/build/dummy_description/install.log --install-scripts $base/lib/dummy_description --single-version-externally-managed install_data
+[3.240s] /home/rhobtor/.local/lib/python3.10/site-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[3.241s]   warnings.warn(
+[3.386s] running egg_info
+[3.389s] creating ../../build/dummy_description/dummy_description.egg-info
+[3.403s] writing ../../build/dummy_description/dummy_description.egg-info/PKG-INFO
+[3.415s] writing dependency_links to ../../build/dummy_description/dummy_description.egg-info/dependency_links.txt
+[3.422s] writing requirements to ../../build/dummy_description/dummy_description.egg-info/requires.txt
+[3.426s] writing top-level names to ../../build/dummy_description/dummy_description.egg-info/top_level.txt
+[3.434s] writing manifest file '../../build/dummy_description/dummy_description.egg-info/SOURCES.txt'
+[3.574s] reading manifest file '../../build/dummy_description/dummy_description.egg-info/SOURCES.txt'
+[3.667s] writing manifest file '../../build/dummy_description/dummy_description.egg-info/SOURCES.txt'
+[3.673s] running build
+[3.674s] running build_py
+[3.682s] creating /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/build/dummy_description/build
+[3.683s] creating /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/build/dummy_description/build/lib
+[3.686s] creating /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/build/dummy_description/build/lib/dummy_description
+[3.697s] copying dummy_description/__init__.py -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/build/dummy_description/build/lib/dummy_description
+[3.711s] running install
+[3.717s] running install_lib
+[3.759s] creating /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/lib/python3.10/site-packages/dummy_description
+[3.773s] copying /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/build/dummy_description/build/lib/dummy_description/__init__.py -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/lib/python3.10/site-packages/dummy_description
+[3.810s] byte-compiling /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/lib/python3.10/site-packages/dummy_description/__init__.py to __init__.cpython-310.pyc
+[3.843s] running install_data
+[3.846s] creating /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/ament_index
+[3.850s] creating /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/ament_index/resource_index
+[3.851s] creating /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/ament_index/resource_index/packages
+[3.858s] copying resource/dummy_description -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/ament_index/resource_index/packages
+[3.880s] copying package.xml -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description
+[3.891s] creating /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/launch
+[3.899s] copying launch/display.launch.py -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/launch
+[3.927s] copying launch/gazebo.launch.py -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/launch
+[3.956s] creating /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/urdf
+[3.965s] copying urdf/dummy.gazebo -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/urdf
+[3.991s] copying urdf/dummy.trans -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/urdf
+[4.023s] copying urdf/dummy.xacro -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/urdf
+[4.045s] copying urdf/materials.xacro -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/urdf
+[4.075s] creating /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/meshes
+[4.083s] copying meshes/1375K176_MXL SERIES TIMING BELT PULLEY (1).stl -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/meshes
+[4.118s] copying meshes/1375K176_MXL SERIES TIMING BELT PULLEY (2).stl -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/meshes
+[4.154s] copying meshes/1375K176_MXL SERIES TIMING BELT PULLEY (3).stl -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/meshes
+[4.185s] copying meshes/1375K176_MXL SERIES TIMING BELT PULLEY.stl -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/meshes
+[4.222s] copying meshes/1375K179_MXL SERIES TIMING BELT PULLEY (1).stl -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/meshes
+[4.270s] copying meshes/1375K179_MXL SERIES TIMING BELT PULLEY.stl -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/meshes
+[4.312s] copying meshes/2 (3) (1) (1).stl -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/meshes
+[4.340s] copying meshes/2GT-16T-3mm v1 (1).stl -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/meshes
+[4.400s] copying meshes/2GT-16T-3mm v1 (2).stl -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/meshes
+[4.435s] copying meshes/2GT-16T-3mm v1 (3).stl -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/meshes
+[4.473s] copying meshes/2GT-16T-3mm v1.stl -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/meshes
+[4.520s] copying meshes/2GT-T20-3mm v1 (1).stl -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/meshes
+[4.566s] copying meshes/2GT-T20-3mm v1.stl -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/meshes
+[4.606s] copying meshes/3D打印件.stl -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/meshes
+[4.648s] copying meshes/base_link.stl -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/meshes
+[4.677s] copying meshes/box.stl -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/meshes
+[4.721s] copying meshes/CSF-8-30-1U v2 (1).stl -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/meshes
+[4.761s] copying meshes/CSF-8-30-1U v2.stl -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/meshes
+[4.800s] copying meshes/eww (3) (1) (1).stl -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/meshes
+[4.828s] copying meshes/Joint1_1.stl -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/meshes
+[4.858s] copying meshes/Joint2_&_Joint3_1.stl -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/meshes
+[4.886s] copying meshes/Joint4_1.stl -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/meshes
+[4.922s] copying meshes/Joint5_1.stl -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/meshes
+[4.961s] copying meshes/Joint6_1.stl -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/meshes
+[5.055s] copying meshes/led.stl -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/meshes
+[5.089s] copying meshes/Nema 17_Slim.stl -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/meshes
+[5.134s] copying meshes/Nema17 Slim Stepper Motor v1.stl -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/meshes
+[5.192s] copying meshes/Nema17 Stepper Motor v1.stl -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/meshes
+[5.219s] copying meshes/P3 (3) (1) (1).stl -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/meshes
+[5.239s] copying meshes/P5 (1) (1) (1) (1).stl -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/meshes
+[5.275s] copying meshes/PK513PA-H50S v1.stl -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/meshes
+[5.328s] copying meshes/PK513PA-H50S v2 (1).stl -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/meshes
+[5.375s] copying meshes/protector1.stl -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/meshes
+[5.408s] copying meshes/protector2.stl -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/meshes
+[5.472s] copying meshes/protector3.stl -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/meshes
+[5.507s] copying meshes/SH03W_KORP (3) (1) (1).stl -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/meshes
+[5.527s] copying meshes/SHXX_PIN_(1) (3) (1) (1).stl -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/meshes
+[5.547s] copying meshes/SHXX_PIN_2 (3) (1) (1).stl -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/meshes
+[5.567s] copying meshes/金属件.stl -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/meshes
+[5.592s] creating /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/config
+[5.609s] copying config/display.rviz -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/config
+[5.618s] running install_egg_info
+[5.651s] Copying ../../build/dummy_description/dummy_description.egg-info to /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/lib/python3.10/site-packages/dummy_description-0.0.0-py3.10.egg-info
+[5.833s] running install_scripts
+[5.950s] writing list of installed files to '/mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/build/dummy_description/install.log'
+[5.981s] Invoked command in '/mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/src/dummy_description' returned '0': PYTHONPATH=/mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/build/dummy_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/dummy_description build --build-base /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/build/dummy_description/build install --record /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/build/dummy_description/install.log --install-scripts $base/lib/dummy_description --single-version-externally-managed install_data

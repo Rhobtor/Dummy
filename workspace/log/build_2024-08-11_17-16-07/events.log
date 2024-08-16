@@ -1,0 +1,67 @@
+[0.000000] (-) TimerEvent: {}
+[0.000249] (dummy_description) JobQueued: {'identifier': 'dummy_description', 'dependencies': OrderedDict()}
+[0.000365] (dummy_description) JobStarted: {'identifier': 'dummy_description'}
+[0.098718] (-) TimerEvent: {}
+[0.199193] (-) TimerEvent: {}
+[0.354544] (-) TimerEvent: {}
+[0.455218] (-) TimerEvent: {}
+[0.555511] (-) TimerEvent: {}
+[0.655868] (-) TimerEvent: {}
+[0.757043] (-) TimerEvent: {}
+[0.859033] (-) TimerEvent: {}
+[0.959536] (-) TimerEvent: {}
+[1.060180] (-) TimerEvent: {}
+[1.162043] (-) TimerEvent: {}
+[1.262394] (-) TimerEvent: {}
+[1.362760] (-) TimerEvent: {}
+[1.463089] (-) TimerEvent: {}
+[1.565125] (-) TimerEvent: {}
+[1.665714] (-) TimerEvent: {}
+[1.766945] (-) TimerEvent: {}
+[1.867372] (-) TimerEvent: {}
+[1.927566] (dummy_description) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/dummy_description', 'build', '--build-base', '/mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/build/dummy_description/build', 'install', '--record', '/mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/build/dummy_description/install.log', '--install-scripts', '$base/lib/dummy_description', '--single-version-externally-managed', 'install_data'], 'cwd': '/mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/src/dummy_description', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rhobtor', 'GIT_ASKPASS': '/home/rhobtor/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'WT_PROFILE_ID': '{61c54bbd-c2c6-5271-96e7-009a87ff44bf}', 'HOME': '/home/rhobtor', 'OLDPWD': '/home/rhobtor/codeInWindows/dummy_v2', 'TERM_PROGRAM_VERSION': '1.92.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-fb29a5cd-f157-47af-8bf6-b0ee0ab9c848.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/rhobtor/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/rhobtor/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/rhobtor/codeInWindows/dummy_v2/workspace/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'rhobtor', 'NAME': 'Code', 'WSL_INTEROP': '/run/WSL/28633_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/rhobtor/gems/bin:/home/rhobtor/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/bin/remote-cli:/home/rhobtor/.local/bin:/home/rhobtor/gems/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin:/mnt/c/Program Files (x86)/VMware/VMware Player/bin/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/luism/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/luism/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/luism/Documents/flutter/flutter/bin:/mnt/c/Users/luism/.dotnet/tools:/snap/bin', 'WT_SESSION': '42ffd297-a8fc-4349-901a-d0930a58c44e', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-1103d6e0d6.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/opt/ros/humble:/home/rhobtor/codeInWindows/dummy_v2/workspace/install/dummy_description', 'SHELL': '/bin/bash', 'GEM_HOME': '/home/rhobtor/gems', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/build/dummy_description', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/build/dummy_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/rhobtor/codeInWindows/dummy_v2/workspace/install/dummy_description/lib/python3.10/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID:'}, 'shell': False}
+[1.967459] (-) TimerEvent: {}
+[2.067778] (-) TimerEvent: {}
+[2.169128] (-) TimerEvent: {}
+[2.269499] (-) TimerEvent: {}
+[2.370120] (-) TimerEvent: {}
+[2.470458] (-) TimerEvent: {}
+[2.571197] (-) TimerEvent: {}
+[2.615745] (dummy_description) StderrLine: {'line': b"/home/rhobtor/.local/lib/python3.10/site-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[2.617631] (dummy_description) StderrLine: {'line': b'  warnings.warn(\n'}
+[2.671342] (-) TimerEvent: {}
+[2.773456] (-) TimerEvent: {}
+[2.783080] (dummy_description) StdoutLine: {'line': b'running egg_info\n'}
+[2.799569] (dummy_description) StdoutLine: {'line': b'writing ../../build/dummy_description/dummy_description.egg-info/PKG-INFO\n'}
+[2.805454] (dummy_description) StdoutLine: {'line': b'writing dependency_links to ../../build/dummy_description/dummy_description.egg-info/dependency_links.txt\n'}
+[2.811751] (dummy_description) StdoutLine: {'line': b'writing requirements to ../../build/dummy_description/dummy_description.egg-info/requires.txt\n'}
+[2.813668] (dummy_description) StdoutLine: {'line': b'writing top-level names to ../../build/dummy_description/dummy_description.egg-info/top_level.txt\n'}
+[2.873547] (-) TimerEvent: {}
+[2.932136] (dummy_description) StdoutLine: {'line': b"reading manifest file '../../build/dummy_description/dummy_description.egg-info/SOURCES.txt'\n"}
+[2.973635] (-) TimerEvent: {}
+[3.028515] (dummy_description) StdoutLine: {'line': b"writing manifest file '../../build/dummy_description/dummy_description.egg-info/SOURCES.txt'\n"}
+[3.036285] (dummy_description) StdoutLine: {'line': b'running build\n'}
+[3.037362] (dummy_description) StdoutLine: {'line': b'running build_py\n'}
+[3.047356] (dummy_description) StdoutLine: {'line': b'running install\n'}
+[3.054478] (dummy_description) StdoutLine: {'line': b'running install_lib\n'}
+[3.073719] (-) TimerEvent: {}
+[3.110971] (dummy_description) StdoutLine: {'line': b'running install_data\n'}
+[3.169986] (dummy_description) StdoutLine: {'line': b'copying urdf/dummy.xacro -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/urdf\n'}
+[3.173802] (-) TimerEvent: {}
+[3.275893] (-) TimerEvent: {}
+[3.376204] (-) TimerEvent: {}
+[3.473915] (dummy_description) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.478252] (-) TimerEvent: {}
+[3.501058] (dummy_description) StdoutLine: {'line': b"removing '/mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/lib/python3.10/site-packages/dummy_description-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.538841] (dummy_description) StdoutLine: {'line': b'Copying ../../build/dummy_description/dummy_description.egg-info to /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/lib/python3.10/site-packages/dummy_description-0.0.0-py3.10.egg-info\n'}
+[3.578386] (-) TimerEvent: {}
+[3.680375] (-) TimerEvent: {}
+[3.777645] (dummy_description) StdoutLine: {'line': b'running install_scripts\n'}
+[3.780426] (-) TimerEvent: {}
+[3.880818] (-) TimerEvent: {}
+[3.886228] (dummy_description) StdoutLine: {'line': b"writing list of installed files to '/mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/build/dummy_description/install.log'\n"}
+[3.912284] (dummy_description) CommandEnded: {'returncode': 0}
+[3.980926] (-) TimerEvent: {}
+[4.081231] (-) TimerEvent: {}
+[4.082145] (dummy_description) JobEnded: {'identifier': 'dummy_description', 'rc': 0}
+[4.103919] (-) EventReactorShutdown: {}

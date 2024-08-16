@@ -1,0 +1,149 @@
+[0.000000] (-) TimerEvent: {}
+[0.000347] (dummy_description) JobQueued: {'identifier': 'dummy_description', 'dependencies': OrderedDict()}
+[0.000454] (dummy_description) JobStarted: {'identifier': 'dummy_description'}
+[0.099367] (-) TimerEvent: {}
+[0.199772] (-) TimerEvent: {}
+[0.303783] (-) TimerEvent: {}
+[0.404149] (-) TimerEvent: {}
+[0.505200] (-) TimerEvent: {}
+[0.608348] (-) TimerEvent: {}
+[0.709171] (-) TimerEvent: {}
+[0.809624] (-) TimerEvent: {}
+[0.910301] (-) TimerEvent: {}
+[1.080033] (-) TimerEvent: {}
+[1.180586] (-) TimerEvent: {}
+[1.281377] (-) TimerEvent: {}
+[1.381771] (-) TimerEvent: {}
+[1.482124] (-) TimerEvent: {}
+[1.582733] (-) TimerEvent: {}
+[1.683212] (-) TimerEvent: {}
+[1.791777] (-) TimerEvent: {}
+[1.893515] (-) TimerEvent: {}
+[1.994448] (-) TimerEvent: {}
+[2.095129] (-) TimerEvent: {}
+[2.124965] (dummy_description) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/dummy_description', 'build', '--build-base', '/mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/build/dummy_description/build', 'install', '--record', '/mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/build/dummy_description/install.log', '--install-scripts', '$base/lib/dummy_description', '--single-version-externally-managed', 'install_data'], 'cwd': '/mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/src/dummy_description', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'rhobtor', 'GIT_ASKPASS': '/home/rhobtor/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/rhobtor', 'OLDPWD': '/home/rhobtor/codeInWindows/dummy_v2', 'TERM_PROGRAM_VERSION': '1.92.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-731b49e2-6a94-4df1-a98d-988ddc180f4c.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/rhobtor/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/rhobtor/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/rhobtor/codeInWindows/dummy_v2/workspace/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'rhobtor', 'NAME': 'DESKTOP-8IE6SBJ', 'WSL_INTEROP': '/run/WSL/528_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/rhobtor/gems/bin:/home/rhobtor/.vscode-server/bin/eaa41d57266683296de7d118f574d0c2652e1fc4/bin/remote-cli:/home/rhobtor/.local/bin:/home/rhobtor/gems/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin:/mnt/c/Program Files (x86)/VMware/VMware Player/bin/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Microsoft SQL Server/150/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/luism/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/luism/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/luism/Documents/flutter/flutter/bin:/mnt/c/Users/luism/.dotnet/tools:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-ab06d39d99.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/rhobtor/codeInWindows/dummy_v2/workspace/install/dummy_description:/opt/ros/humble', 'SHELL': '/bin/bash', 'GEM_HOME': '/home/rhobtor/gems', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/build/dummy_description', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/build/dummy_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/lib/python3.10/site-packages:/home/rhobtor/codeInWindows/dummy_v2/workspace/install/dummy_description/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'VSCODE_WSL_EXT_LOCATION/up'}, 'shell': False}
+[2.195231] (-) TimerEvent: {}
+[2.295571] (-) TimerEvent: {}
+[2.397923] (-) TimerEvent: {}
+[2.498601] (-) TimerEvent: {}
+[2.680276] (-) TimerEvent: {}
+[2.780698] (-) TimerEvent: {}
+[2.881809] (-) TimerEvent: {}
+[2.982230] (-) TimerEvent: {}
+[3.083161] (-) TimerEvent: {}
+[3.183899] (-) TimerEvent: {}
+[3.239929] (dummy_description) StderrLine: {'line': b"/home/rhobtor/.local/lib/python3.10/site-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[3.240554] (dummy_description) StderrLine: {'line': b'  warnings.warn(\n'}
+[3.283989] (-) TimerEvent: {}
+[3.384793] (-) TimerEvent: {}
+[3.385124] (dummy_description) StdoutLine: {'line': b'running egg_info\n'}
+[3.388749] (dummy_description) StdoutLine: {'line': b'creating ../../build/dummy_description/dummy_description.egg-info\n'}
+[3.403113] (dummy_description) StdoutLine: {'line': b'writing ../../build/dummy_description/dummy_description.egg-info/PKG-INFO\n'}
+[3.414502] (dummy_description) StdoutLine: {'line': b'writing dependency_links to ../../build/dummy_description/dummy_description.egg-info/dependency_links.txt\n'}
+[3.421707] (dummy_description) StdoutLine: {'line': b'writing requirements to ../../build/dummy_description/dummy_description.egg-info/requires.txt\n'}
+[3.425389] (dummy_description) StdoutLine: {'line': b'writing top-level names to ../../build/dummy_description/dummy_description.egg-info/top_level.txt\n'}
+[3.433768] (dummy_description) StdoutLine: {'line': b"writing manifest file '../../build/dummy_description/dummy_description.egg-info/SOURCES.txt'\n"}
+[3.484900] (-) TimerEvent: {}
+[3.573474] (dummy_description) StdoutLine: {'line': b"reading manifest file '../../build/dummy_description/dummy_description.egg-info/SOURCES.txt'\n"}
+[3.585001] (-) TimerEvent: {}
+[3.666604] (dummy_description) StdoutLine: {'line': b"writing manifest file '../../build/dummy_description/dummy_description.egg-info/SOURCES.txt'\n"}
+[3.671829] (dummy_description) StdoutLine: {'line': b'running build\n'}
+[3.673951] (dummy_description) StdoutLine: {'line': b'running build_py\n'}
+[3.682253] (dummy_description) StdoutLine: {'line': b'creating /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/build/dummy_description/build\n'}
+[3.683695] (dummy_description) StdoutLine: {'line': b'creating /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/build/dummy_description/build/lib\n'}
+[3.685080] (-) TimerEvent: {}
+[3.685520] (dummy_description) StdoutLine: {'line': b'creating /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/build/dummy_description/build/lib/dummy_description\n'}
+[3.696300] (dummy_description) StdoutLine: {'line': b'copying dummy_description/__init__.py -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/build/dummy_description/build/lib/dummy_description\n'}
+[3.710718] (dummy_description) StdoutLine: {'line': b'running install\n'}
+[3.716960] (dummy_description) StdoutLine: {'line': b'running install_lib\n'}
+[3.759000] (dummy_description) StdoutLine: {'line': b'creating /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/lib/python3.10/site-packages/dummy_description\n'}
+[3.772772] (dummy_description) StdoutLine: {'line': b'copying /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/build/dummy_description/build/lib/dummy_description/__init__.py -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/lib/python3.10/site-packages/dummy_description\n'}
+[3.785190] (-) TimerEvent: {}
+[3.809778] (dummy_description) StdoutLine: {'line': b'byte-compiling /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/lib/python3.10/site-packages/dummy_description/__init__.py to __init__.cpython-310.pyc\n'}
+[3.842549] (dummy_description) StdoutLine: {'line': b'running install_data\n'}
+[3.846570] (dummy_description) StdoutLine: {'line': b'creating /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/ament_index\n'}
+[3.849178] (dummy_description) StdoutLine: {'line': b'creating /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/ament_index/resource_index\n'}
+[3.851162] (dummy_description) StdoutLine: {'line': b'creating /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/ament_index/resource_index/packages\n'}
+[3.857921] (dummy_description) StdoutLine: {'line': b'copying resource/dummy_description -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/ament_index/resource_index/packages\n'}
+[3.879320] (dummy_description) StdoutLine: {'line': b'copying package.xml -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description\n'}
+[3.885294] (-) TimerEvent: {}
+[3.891257] (dummy_description) StdoutLine: {'line': b'creating /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/launch\n'}
+[3.898259] (dummy_description) StdoutLine: {'line': b'copying launch/display.launch.py -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/launch\n'}
+[3.926725] (dummy_description) StdoutLine: {'line': b'copying launch/gazebo.launch.py -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/launch\n'}
+[3.955673] (dummy_description) StdoutLine: {'line': b'creating /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/urdf\n'}
+[3.963412] (dummy_description) StdoutLine: {'line': b'copying urdf/dummy.gazebo -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/urdf\n'}
+[3.985395] (-) TimerEvent: {}
+[3.991155] (dummy_description) StdoutLine: {'line': b'copying urdf/dummy.trans -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/urdf\n'}
+[4.022531] (dummy_description) StdoutLine: {'line': b'copying urdf/dummy.xacro -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/urdf\n'}
+[4.045517] (dummy_description) StdoutLine: {'line': b'copying urdf/materials.xacro -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/urdf\n'}
+[4.074188] (dummy_description) StdoutLine: {'line': b'creating /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/meshes\n'}
+[4.082789] (dummy_description) StdoutLine: {'line': b'copying meshes/1375K176_MXL SERIES TIMING BELT PULLEY (1).stl -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/meshes\n'}
+[4.085511] (-) TimerEvent: {}
+[4.117986] (dummy_description) StdoutLine: {'line': b'copying meshes/1375K176_MXL SERIES TIMING BELT PULLEY (2).stl -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/meshes\n'}
+[4.154053] (dummy_description) StdoutLine: {'line': b'copying meshes/1375K176_MXL SERIES TIMING BELT PULLEY (3).stl -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/meshes\n'}
+[4.185429] (dummy_description) StdoutLine: {'line': b'copying meshes/1375K176_MXL SERIES TIMING BELT PULLEY.stl -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/meshes\n'}
+[4.185949] (-) TimerEvent: {}
+[4.222143] (dummy_description) StdoutLine: {'line': b'copying meshes/1375K179_MXL SERIES TIMING BELT PULLEY (1).stl -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/meshes\n'}
+[4.269883] (dummy_description) StdoutLine: {'line': b'copying meshes/1375K179_MXL SERIES TIMING BELT PULLEY.stl -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/meshes\n'}
+[4.286072] (-) TimerEvent: {}
+[4.312208] (dummy_description) StdoutLine: {'line': b'copying meshes/2 (3) (1) (1).stl -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/meshes\n'}
+[4.340190] (dummy_description) StdoutLine: {'line': b'copying meshes/2GT-16T-3mm v1 (1).stl -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/meshes\n'}
+[4.386186] (-) TimerEvent: {}
+[4.398491] (dummy_description) StdoutLine: {'line': b'copying meshes/2GT-16T-3mm v1 (2).stl -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/meshes\n'}
+[4.434469] (dummy_description) StdoutLine: {'line': b'copying meshes/2GT-16T-3mm v1 (3).stl -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/meshes\n'}
+[4.472743] (dummy_description) StdoutLine: {'line': b'copying meshes/2GT-16T-3mm v1.stl -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/meshes\n'}
+[4.486296] (-) TimerEvent: {}
+[4.519483] (dummy_description) StdoutLine: {'line': b'copying meshes/2GT-T20-3mm v1 (1).stl -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/meshes\n'}
+[4.566010] (dummy_description) StdoutLine: {'line': b'copying meshes/2GT-T20-3mm v1.stl -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/meshes\n'}
+[4.586409] (-) TimerEvent: {}
+[4.605333] (dummy_description) StdoutLine: {'line': b'copying meshes/3D\xe6\x89\x93\xe5\x8d\xb0\xe4\xbb\xb6.stl -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/meshes\n'}
+[4.647897] (dummy_description) StdoutLine: {'line': b'copying meshes/base_link.stl -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/meshes\n'}
+[4.676709] (dummy_description) StdoutLine: {'line': b'copying meshes/box.stl -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/meshes\n'}
+[4.686513] (-) TimerEvent: {}
+[4.719819] (dummy_description) StdoutLine: {'line': b'copying meshes/CSF-8-30-1U v2 (1).stl -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/meshes\n'}
+[4.760856] (dummy_description) StdoutLine: {'line': b'copying meshes/CSF-8-30-1U v2.stl -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/meshes\n'}
+[4.786643] (-) TimerEvent: {}
+[4.799842] (dummy_description) StdoutLine: {'line': b'copying meshes/eww (3) (1) (1).stl -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/meshes\n'}
+[4.827940] (dummy_description) StdoutLine: {'line': b'copying meshes/Joint1_1.stl -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/meshes\n'}
+[4.857918] (dummy_description) StdoutLine: {'line': b'copying meshes/Joint2_&_Joint3_1.stl -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/meshes\n'}
+[4.886497] (dummy_description) StdoutLine: {'line': b'copying meshes/Joint4_1.stl -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/meshes\n'}
+[4.887117] (-) TimerEvent: {}
+[4.922224] (dummy_description) StdoutLine: {'line': b'copying meshes/Joint5_1.stl -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/meshes\n'}
+[4.961179] (dummy_description) StdoutLine: {'line': b'copying meshes/Joint6_1.stl -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/meshes\n'}
+[4.987255] (-) TimerEvent: {}
+[5.053527] (dummy_description) StdoutLine: {'line': b'copying meshes/led.stl -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/meshes\n'}
+[5.087352] (-) TimerEvent: {}
+[5.088876] (dummy_description) StdoutLine: {'line': b'copying meshes/Nema 17_Slim.stl -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/meshes\n'}
+[5.134108] (dummy_description) StdoutLine: {'line': b'copying meshes/Nema17 Slim Stepper Motor v1.stl -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/meshes\n'}
+[5.187456] (-) TimerEvent: {}
+[5.192095] (dummy_description) StdoutLine: {'line': b'copying meshes/Nema17 Stepper Motor v1.stl -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/meshes\n'}
+[5.217592] (dummy_description) StdoutLine: {'line': b'copying meshes/P3 (3) (1) (1).stl -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/meshes\n'}
+[5.239287] (dummy_description) StdoutLine: {'line': b'copying meshes/P5 (1) (1) (1) (1).stl -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/meshes\n'}
+[5.275561] (dummy_description) StdoutLine: {'line': b'copying meshes/PK513PA-H50S v1.stl -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/meshes\n'}
+[5.287560] (-) TimerEvent: {}
+[5.327812] (dummy_description) StdoutLine: {'line': b'copying meshes/PK513PA-H50S v2 (1).stl -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/meshes\n'}
+[5.374683] (dummy_description) StdoutLine: {'line': b'copying meshes/protector1.stl -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/meshes\n'}
+[5.387669] (-) TimerEvent: {}
+[5.408422] (dummy_description) StdoutLine: {'line': b'copying meshes/protector2.stl -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/meshes\n'}
+[5.469906] (dummy_description) StdoutLine: {'line': b'copying meshes/protector3.stl -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/meshes\n'}
+[5.487789] (-) TimerEvent: {}
+[5.506864] (dummy_description) StdoutLine: {'line': b'copying meshes/SH03W_KORP (3) (1) (1).stl -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/meshes\n'}
+[5.527436] (dummy_description) StdoutLine: {'line': b'copying meshes/SHXX_PIN_(1) (3) (1) (1).stl -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/meshes\n'}
+[5.547395] (dummy_description) StdoutLine: {'line': b'copying meshes/SHXX_PIN_2 (3) (1) (1).stl -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/meshes\n'}
+[5.567187] (dummy_description) StdoutLine: {'line': b'copying meshes/\xe9\x87\x91\xe5\xb1\x9e\xe4\xbb\xb6.stl -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/meshes\n'}
+[5.587900] (-) TimerEvent: {}
+[5.592333] (dummy_description) StdoutLine: {'line': b'creating /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/config\n'}
+[5.609320] (dummy_description) StdoutLine: {'line': b'copying config/display.rviz -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/config\n'}
+[5.617685] (dummy_description) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.651253] (dummy_description) StdoutLine: {'line': b'Copying ../../build/dummy_description/dummy_description.egg-info to /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/lib/python3.10/site-packages/dummy_description-0.0.0-py3.10.egg-info\n'}
+[5.688002] (-) TimerEvent: {}
+[5.788335] (-) TimerEvent: {}
+[5.833135] (dummy_description) StdoutLine: {'line': b'running install_scripts\n'}
+[5.888433] (-) TimerEvent: {}
+[5.949965] (dummy_description) StdoutLine: {'line': b"writing list of installed files to '/mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/build/dummy_description/install.log'\n"}
+[5.980553] (dummy_description) CommandEnded: {'returncode': 0}
+[5.988536] (-) TimerEvent: {}
+[6.089067] (-) TimerEvent: {}
+[6.189457] (-) TimerEvent: {}
+[6.267219] (dummy_description) JobEnded: {'identifier': 'dummy_description', 'rc': 0}
+[6.287654] (-) EventReactorShutdown: {}

@@ -1,0 +1,60 @@
+package.xml
+setup.cfg
+setup.py
+../../build/dummy_description/dummy_description.egg-info/PKG-INFO
+../../build/dummy_description/dummy_description.egg-info/SOURCES.txt
+../../build/dummy_description/dummy_description.egg-info/dependency_links.txt
+../../build/dummy_description/dummy_description.egg-info/requires.txt
+../../build/dummy_description/dummy_description.egg-info/top_level.txt
+../../build/dummy_description/dummy_description.egg-info/zip-safe
+config/display.rviz
+dummy_description/__init__.py
+launch/display.launch.py
+launch/gazebo.launch.py
+meshes/1375K176_MXL SERIES TIMING BELT PULLEY (1).stl
+meshes/1375K176_MXL SERIES TIMING BELT PULLEY (2).stl
+meshes/1375K176_MXL SERIES TIMING BELT PULLEY (3).stl
+meshes/1375K176_MXL SERIES TIMING BELT PULLEY.stl
+meshes/1375K179_MXL SERIES TIMING BELT PULLEY (1).stl
+meshes/1375K179_MXL SERIES TIMING BELT PULLEY.stl
+meshes/2 (3) (1) (1).stl
+meshes/2GT-16T-3mm v1 (1).stl
+meshes/2GT-16T-3mm v1 (2).stl
+meshes/2GT-16T-3mm v1 (3).stl
+meshes/2GT-16T-3mm v1.stl
+meshes/2GT-T20-3mm v1 (1).stl
+meshes/2GT-T20-3mm v1.stl
+meshes/3D打印件.stl
+meshes/CSF-8-30-1U v2 (1).stl
+meshes/CSF-8-30-1U v2.stl
+meshes/Joint1_1.stl
+meshes/Joint2_3.stl
+meshes/Joint4_1.stl
+meshes/Joint5_1.stl
+meshes/Joint6_1.stl
+meshes/Nema 17_Slim.stl
+meshes/Nema17 Slim Stepper Motor v1.stl
+meshes/Nema17 Stepper Motor v1.stl
+meshes/P3 (3) (1) (1).stl
+meshes/P5 (1) (1) (1) (1).stl
+meshes/PK513PA-H50S v1.stl
+meshes/PK513PA-H50S v2 (1).stl
+meshes/SH03W_KORP (3) (1) (1).stl
+meshes/SHXX_PIN_(1) (3) (1) (1).stl
+meshes/SHXX_PIN_2 (3) (1) (1).stl
+meshes/base_link.stl
+meshes/box.stl
+meshes/eww (3) (1) (1).stl
+meshes/led.stl
+meshes/protector1.stl
+meshes/protector2.stl
+meshes/protector3.stl
+meshes/金属件.stl
+resource/dummy_description
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
+urdf/dummy.gazebo
+urdf/dummy.trans
+urdf/dummy.xacro
+urdf/materials.xacro

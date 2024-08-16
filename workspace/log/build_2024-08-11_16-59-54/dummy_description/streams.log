@@ -1,0 +1,22 @@
+[1.841s] Invoking command in '/mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/src/dummy_description': PYTHONPATH=/mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/build/dummy_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/dummy_description build --build-base /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/build/dummy_description/build install --record /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/build/dummy_description/install.log --install-scripts $base/lib/dummy_description --single-version-externally-managed install_data
+[2.496s] /home/rhobtor/.local/lib/python3.10/site-packages/setuptools/dist.py:771: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[2.496s]   warnings.warn(
+[2.599s] running egg_info
+[2.617s] writing ../../build/dummy_description/dummy_description.egg-info/PKG-INFO
+[2.620s] writing dependency_links to ../../build/dummy_description/dummy_description.egg-info/dependency_links.txt
+[2.627s] writing requirements to ../../build/dummy_description/dummy_description.egg-info/requires.txt
+[2.629s] writing top-level names to ../../build/dummy_description/dummy_description.egg-info/top_level.txt
+[2.735s] reading manifest file '../../build/dummy_description/dummy_description.egg-info/SOURCES.txt'
+[2.805s] writing manifest file '../../build/dummy_description/dummy_description.egg-info/SOURCES.txt'
+[2.807s] running build
+[2.808s] running build_py
+[2.817s] running install
+[2.823s] running install_lib
+[2.970s] running install_data
+[2.991s] copying launch/gazebo.launch.py -> /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/share/dummy_description/launch
+[3.288s] running install_egg_info
+[3.310s] removing '/mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/lib/python3.10/site-packages/dummy_description-0.0.0-py3.10.egg-info' (and everything under it)
+[3.343s] Copying ../../build/dummy_description/dummy_description.egg-info to /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/lib/python3.10/site-packages/dummy_description-0.0.0-py3.10.egg-info
+[3.452s] running install_scripts
+[3.532s] writing list of installed files to '/mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/build/dummy_description/install.log'
+[3.555s] Invoked command in '/mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/src/dummy_description' returned '0': PYTHONPATH=/mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/build/dummy_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/install/dummy_description/lib/python3.10/site-packages:${PYTHONPATH} WSLENV=ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/dummy_description build --build-base /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/build/dummy_description/build install --record /mnt/c/Users/luism/Documents/PhD/dummy_v2/workspace/build/dummy_description/install.log --install-scripts $base/lib/dummy_description --single-version-externally-managed install_data
